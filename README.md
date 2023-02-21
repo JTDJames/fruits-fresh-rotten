@@ -31,7 +31,7 @@ It should be noted that “fresh” and “rotten” are subjective terms that c
 
 
 Example of original images:
-<br/>
+<br/><br/>
 ![Fresh Apple](images/fresh_apple.png "Fresh Apple")
 ![Rotten Pomegranate](images/rotten_pomegranate.png "Rotten Pomegranate")
 ![Fresh Grape Brunch](images/fresh_grape.png "Fresh Grape")
