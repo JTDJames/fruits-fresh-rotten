@@ -21,7 +21,7 @@ Implementing a CNN model can be used as a tool by food businesses to accomplish 
 
 # Data Understanding
 
-The data used for the model is comprised of approximately 2700 original images images of fresh and rotten fruits. These images were provided by Jah-hang-ger-knee-gar University School & College, and were divided into sixteen equal classes - Fresh and Rotten classes for eight different fruits: Red Apples, Bananas, Grapes, Guavas, Jujubes, Oranges, Pomegranates, and Strawberries.
+The data used for the model is comprised of approximately 2700 original images images of fresh and rotten fruits. These images were provided by Jahangirnagar University School & College, and were divided into sixteen equal classes - Fresh and Rotten classes for eight different fruits: Red Apples, Bananas, Grapes, Guavas, Jujubes, Oranges, Pomegranates, and Strawberries.
 
 Data was split into training, validation, and testing for modeling. This left 170 original images left for each classification as training data. To help the model, data augmentation was used to created new images from the existing originals.
 
