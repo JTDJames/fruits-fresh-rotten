@@ -1,5 +1,7 @@
 # Fresh or Rotten - CNN for Fruits
 
+![AI Drawn Fruits](images/fresh_apple.png "Fruit Banner")
+
 # Objectives
 
 My main objective was to create a convolutional neural network image classification model that identifies if a fruit was fresh or rotten, and the type of fruit.
