@@ -45,7 +45,9 @@ Data was split into training, validation, and testing for modeling. This left 17
 # Model Performance
 <br/>
 When looking at the prediction of just fresh and rotten classification, the model predicted the correct freshness at 98% on the unseen test data. Both of the errors were false negatives, the model predicted the fruit was fresh, when in fact, they were rotten. As a screener for rotten fruit, this is the less desirable error, and an indication that further tuning to the model will be beneficial. The model was able to predict the correct freshness AND fruit 96% (0.9625) of the time. Fresh jujube was the only true fresh classification that had an inaccurate prediction, in this case, as a fresh grape. Collecting more data of original images of each classification in the future will increase the models performance.
+
 <br/>
+
 ![Freshness Confusion Matrix](images/con_mat.png "Freshness Confusion Matrix") <br/> <br/>
 ![Fruit Confusion Matrix](images/con_mat_all.png "Fruit Confusion Matrix") <br/> <br/>
 ![Fruit Predictions](images/preds_bars.png "Fruit Predictions")
