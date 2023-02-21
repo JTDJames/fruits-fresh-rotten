@@ -32,6 +32,7 @@ Example of original images:
 
 ![Fresh Apple](images/fresh_apple.png "Fresh Apple")
 ![Rotten Pomegranate](images/rotten_pomegranate.png "Rotten Pomegranate")
+![Fresh Grape Brunch](images/fresh_grape.png "Fresh Grape")
 ![Fresh Grape Brunch](images/fresh_grape_bunch.png "Fresh Grape Bunch")
 
 Data was split into training, validation, and testing for modeling. This left 170 original images left for each classification as training data. To help the model, data augmentation was used to created new images from the existing originals.
