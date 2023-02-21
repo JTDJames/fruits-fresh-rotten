@@ -8,7 +8,7 @@ This model can serve as the foundation for achieving two larger objectives:
 Saving food focused businesses money, primarily through the reduction of human capital needed to sort rotten food, and
 Reducing food waste and the impact it has through greenhouse gas emissions
 
-# Busienss Understanding
+# Business Understanding
 
 
 According to a report from the World Wide Fund for Nature and Tesco in 2021, global food waste on farms alone accounted for 15.3% of all food produced globally. Food waste or food loss is revenue loss. Any unit of food not sold by a farm, wholesaler, or retailer is money lost.
