@@ -9,7 +9,7 @@ My main objective was to create a convolutional neural network image classificat
 This model can serve as the foundation for achieving two larger objectives:
 Saving food focused businesses money, primarily through the reduction of human capital needed to sort rotten food, and
 Reducing food waste and the impact it has through greenhouse gas emissions
-<br/>
+<br/> <br/>
 
 # Business Understanding
 
@@ -21,7 +21,7 @@ While there are many other indirect, and direct factors for food loss, one of th
 And food loss happens at all points in the supply chain: harvest, storage, wholesale, retail, and consumer use. At each of these points, effectively screening fruit freshness through automated systems can help release the pressure needed from human capital.
 
 Implementing a CNN model can be used as a tool by food businesses to accomplish this decrease in human labor hours needed and increase efficiency in harvesting, sorting, and selling crops. As mentioned, improving these same systems to save money would also reduce food waste. The UN Environment Programme suggest approximately 9% of global greenhouse gas emissions are associated with food that is not consumed. This means focusing on saving money in this manner, would have the bonus of creating more sustainable systems. This use of machine learning is a win win for businesses and sustainability.
-<br/>
+<br/> <br/>
 
 # Data Understanding
 
