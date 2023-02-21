@@ -1,6 +1,6 @@
 # Fresh or Rotten - CNN for Fruits
 
-![AI Drawn Fruits](images/fresh_apple.png "Fruit Banner")
+![AI Drawn Fruits](images/fruit_banner.png "Fruit Banner")
 
 # Objectives
 
