@@ -58,10 +58,10 @@ layers.Dense(1000,activation="relu"),<br>
 layers.Dropout(.8),<br>
 layers.Dense(16,activation="softmax")
 <br><br>
-optimizer="adam",
-loss="categorical_crossentropy",
-fit__validation_data=(val_images, val_labels_encoded),
-metrics=['accuracy'],
+optimizer="adam",<br>
+loss="categorical_crossentropy",<br>
+fit__validation_data=(val_images, val_labels_encoded),<br>
+metrics=['accuracy'],<br>
 epochs=350
 
 # Model Performance
