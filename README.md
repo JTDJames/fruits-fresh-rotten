@@ -82,3 +82,8 @@ Some crops may have visible blemishes making them unlikely to be purchased by a 
 
 And lastly, integrate the model for specific business need. From crop monitoring before harvest to sorting freshness via a conveyor belt, each business has a unique need for classification. I look forward to working with them on implementing this model in the best way.
 
+# Resources
+
+[Saved models shared in Google Drive](https://drive.google.com/drive/folders/1Ww2EbecWLkBbT6E61Q1rC3VfdO2yhbc6?usp=share_link)
+
+[Original data source](https://data.mendeley.com/datasets/bdd69gyhv8/1)
