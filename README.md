@@ -44,20 +44,20 @@ Data was split into training, validation, and testing for modeling. This left 17
 
 # Model Structure
 <br/>
-resize_and_rescale,  
-data_augmentation,  
-layers.Conv2D(filters=32,kernel_size=3,padding="same",activation="relu"),  
-layers.MaxPooling2D(pool_size=2),  
-layers.Conv2D(filters=64,kernel_size=3,padding="same",activation="relu"),  
-layers.MaxPooling2D(pool_size=2),  
-layers.Conv2D(filters=128,kernel_size=3,padding="same",activation ="relu"),
-layers.MaxPooling2D(pool_size=2),
-layers.Dropout(.5),  
-layers.Flatten(),
-layers.Dense(1000,activation="relu"),
-layers.Dropout(.8),
+resize_and_rescale,<br>
+data_augmentation,<br>
+layers.Conv2D(filters=32,kernel_size=3,padding="same",activation="relu"),<br>
+layers.MaxPooling2D(pool_size=2),<br>  
+layers.Conv2D(filters=64,kernel_size=3,padding="same",activation="relu"),<br>
+layers.MaxPooling2D(pool_size=2),<br>
+layers.Conv2D(filters=128,kernel_size=3,padding="same",activation ="relu"),<br>
+layers.MaxPooling2D(pool_size=2),<br>
+layers.Dropout(.5),<br>  
+layers.Flatten(),<br>
+layers.Dense(1000,activation="relu"),<br>
+layers.Dropout(.8),<br>
 layers.Dense(16,activation="softmax")
-<br>
+<br><br>
 optimizer="adam",
 loss="categorical_crossentropy",
 fit__validation_data=(val_images, val_labels_encoded),
