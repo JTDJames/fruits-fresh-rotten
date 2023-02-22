@@ -44,12 +44,12 @@ Data was split into training, validation, and testing for modeling. This left 17
 
 # Model Structure
 <br/>
-resize_and_rescale,
-data_augmentation,
-layers.Conv2D(filters=32,kernel_size=3,padding="same",activation="relu"),
-layers.MaxPooling2D(pool_size=2),    
-layers.Conv2D(filters=64,kernel_size=3,padding="same",activation="relu"),
-layers.MaxPooling2D(pool_size=2),
+resize_and_rescale,  
+data_augmentation,  
+layers.Conv2D(filters=32,kernel_size=3,padding="same",activation="relu"),  
+layers.MaxPooling2D(pool_size=2),  
+layers.Conv2D(filters=64,kernel_size=3,padding="same",activation="relu"),  
+layers.MaxPooling2D(pool_size=2),  
 layers.Conv2D(filters=128,kernel_size=3,padding="same",activation ="relu"),
 layers.MaxPooling2D(pool_size=2),
 layers.Dropout(.5),  
