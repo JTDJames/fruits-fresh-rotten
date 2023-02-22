@@ -42,6 +42,28 @@ Data was split into training, validation, and testing for modeling. This left 17
 ![Split Count](images/split_count.png "Split Count")
 <br/>
 
+# Model Structure
+<br/>
+resize_and_rescale,
+data_augmentation,
+layers.Conv2D(filters=32,kernel_size=3,padding="same",activation="relu"),
+layers.MaxPooling2D(pool_size=2),    
+layers.Conv2D(filters=64,kernel_size=3,padding="same",activation="relu"),
+layers.MaxPooling2D(pool_size=2),
+layers.Conv2D(filters=128,kernel_size=3,padding="same",activation ="relu"),
+layers.MaxPooling2D(pool_size=2),
+layers.Dropout(.5),  
+layers.Flatten(),
+layers.Dense(1000,activation="relu"),
+layers.Dropout(.8),
+layers.Dense(16,activation="softmax")
+<br>
+optimizer="adam",
+loss="categorical_crossentropy",
+fit__validation_data=(val_images, val_labels_encoded),
+metrics=['accuracy'],
+epochs=350
+
 # Model Performance
 <br/>
 When looking at the prediction of just fresh and rotten classification, the model predicted the correct freshness at 98% on the unseen test data. Both of the errors were false negatives, the model predicted the fruit was fresh, when in fact, they were rotten. As a screener for rotten fruit, this is the less desirable error, and an indication that further tuning to the model will be beneficial. The model was able to predict the correct freshness AND fruit 96% (0.9625) of the time. Fresh jujube was the only true fresh classification that had an inaccurate prediction, in this case, as a fresh grape. Collecting more data of original images of each classification in the future will increase the models performance.
